@@ -1,0 +1,44 @@
+body {
+    background-color: maroon;
+    color: white;
+}
+.c {
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.n {
+    color: black;
+    font-size: 100;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 0.1rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.3rem solid black;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: aqua; 
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+  
